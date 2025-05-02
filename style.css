@@ -1,0 +1,74 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  height: 90vh;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+  .product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 16px;
+    height: 100%;
+    position: relative;
+    padding-bottom: 120px; 
+  }
+
+  .product-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .product-card p {
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+  }
+
+  .read-more {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .product-img {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    max-width: 110px; 
+    height: auto;
+    object-fit: contain;
+    border-radius: 15px;
+    
+  }
+
+.why-us {
+  background-color: #f0f8ff;
+  font-size: 1.1rem;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 10px;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
